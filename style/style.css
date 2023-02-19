@@ -1,5 +1,5 @@
 .page {
-    max-width: 425px;
+    min-width: 320px;
     min-height: 10023px;
     font-family: 'Inter';
     color: #FFFFFF;
@@ -43,16 +43,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: flex-start;
-
+    align-content: center;
+    padding-top: 48px;
 }
 .lead__title {
     margin: 0;
     padding: 0;
     margin: auto;
-    width: 288px;
-    height: 88px;
-    margin-top: 48px;
+    max-width: 288px;
+    min-height: 88px;
     font-weight: 900;
     font-size: 40px;
     line-height: 44px;
@@ -62,18 +61,17 @@
     margin: 0;
     padding: 0;
     margin: auto;
-    width: 288px;
-    height: 40px;
-    margin-top: 16px;
+    max-width: 288px;
+    min-height: 40px;
+    padding-top: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
 }
 .lead__image {
-    margin-top: 40px;
+    padding-top: 40px;
     width: 100%;
-    height: 200px;
 }
 .lead__caption {
     margin: 0;
@@ -81,9 +79,8 @@
     padding-left: 16px;
     display: flex;
     justify-content: flex-start;
-    width: 158px;
-    height: 14px;
-    margin-top: 8px;
+    max-width: 158px;
+    padding-top: 8px;
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
@@ -96,6 +93,7 @@
     padding-right: 16px;
     padding-left: 16px;
     min-width: 288px;
+    padding-top: 64px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -105,8 +103,6 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 70px;
-    margin-top: 64px;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
@@ -115,8 +111,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    max-height: 520px;
-    margin-top: 40px;
+    padding-top: 40px;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
@@ -125,8 +120,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 90px;
-    margin-top: 34px;
+    padding-top: 34px;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
@@ -324,145 +318,81 @@
 
 @media (min-width: 768px) {
     .page {
-        min-width: 320px;
-        min-height: 10023px;
-        font-family: 'Inter';
-        color: #FFFFFF;
-        background-color: #2A2C2F;
+        min-width: 768px;
+        min-height: 6855px;
     }
-}
-@media (min-width: 1024px) {
-    .page {
-        min-height: 6895px;
-    }
-}
-@media (min-width: 1280px) {
-    .page {
-        min-height: 6875px;
-    }
-}
-
-@media (min-width: 768px) {
     .header {
         padding-right: 24px;
         padding-left: 24px;
     }
-}
-@media (min-width: 768px) {
     .header__logo {
         padding-top: 28px;
-        width: 178px;
+        width: 176px;
         height: 52px;
     }
-}
-@media (min-width: 768px) {
     .header__lang {
         padding-top: 46px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
     }
-}
-@media (min-width: 768px) {
     .header__lang_ru {
-        min-width: 30px;
-        min-height: 28px;
+        width: 30px;
+        height: 28px;
     }
-}
-@media (min-width: 768px) {
     .header__lang_en {
-        max-width: 29px;
-        max-height: 28px;
+        width: 29px;
+        height: 28px;
     }
-}
-@media (min-width: 768px) {
     .lead__title {
-        width: 720px;
-        height: 200px;
+        padding-right: 24px;
+        padding-left: 24px;
+        max-width: 720px;
+        min-height: 200px;
         font-weight: 900;
         font-size: 96px;
         line-height: 100px;
         text-align: center;
     }
-}
-@media (min-width: 768px) {
     .lead__subtitle {
-        width: 640px;
-        height: 72px;
-        margin-top: 32px;
+        padding-right: 64px;
+        padding-left: 64px;
+        max-width: 640px;
+        min-height: 72px;
+        padding-top: 32px;
         font-weight: 400;
         font-size: 30px;
         line-height: 36px;
         text-align: center;
     }
-}
-@media (min-width: 768px) {
     .lead__image {
-        margin-top: 56px;
-        height: 480px;
+        padding-top: 56px;
+        width: 100%;
     }
-}
-@media (min-width: 768px) {
     .lead__caption {
+        margin: 0;
+        padding: 0;
+        padding-top: 8px;
         padding-left: 24px;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 14px;
-        text-transform: uppercase;
     }
-}
-@media (min-width: 768px) {
     .intro {
         padding-right: 24px;
         padding-left: 24px;
+        max-width: 720px;
+        padding-top: 88px;
     }
-}
-@media (min-width: 1024px) {
-    .intro {
-        padding-right: 286px;
-        padding-left: 48px;
-    }
-}
-@media (min-width: 1280px) {
-    .intro {
-        padding-right: 442px;
-        padding-left: 148px;
-    }
-}
-@media (min-width: 768px) {
     .intro__title {
-        min-width: 720px;
-        margin-top: 88px;
+        width: 100%;
         font-weight: 900;
         font-size: 54px;
         line-height: 58px;
     }
-}
-@media (min-width: 1024px) {
-    .intro__title {
-        min-width: 690px;
-        margin-top: 92px;
-    }
-}
-@media (min-width: 768px) {
     .intro__text {
-        min-width: 208px;
-        min-height: 520px;
-}
-@media (min-width: 1024px) {
-    .intro__text {
-        min-width: 690px;
-
-}
-@media (min-width: 768px) {
-    .intro__list {
-        min-width: 720px;
-        margin-top: 33px;
+        width: 100%;
     }
-}
-@media (min-width: 1024px) {
     .intro__list {
-        min-width: 690px;
+        padding-top: 33px;
     }
-}
-@media (min-width: 768px) {
     .photo-grid {
         row-gap: 16px;
         column-gap: 16px;
@@ -470,8 +400,99 @@
         padding-right: 24px;
         padding-left: 24px;
     }
+    .item {
+        width: 352px;
+        height: 264px;
+    }
+
+
+    .places {
+        padding-top: 88px;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .place {
+        display: grid;
+        gap: 28px;
+        grid-template-rows: 3;
+        grid-template-columns: 340px 352px;
+        grid-template-areas:
+        "title website"
+        "image paragraph"
+        "image paragraph"
+    }
+    .place__title {
+        padding: 0;
+        grid-area: title;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .place__image {
+        width: 100%;
+        min-height: 340px;
+        grid-area: image;
+    }
+    .place__website {
+        padding: 0;
+        grid-area: website;
+    }
+    .place__url {
+
+    }
+    .place__link {
+ 
+    }
+    .place__paragraph {
+        grid-area: paragraph;
+        margin-top: 48px;
+        padding: 0;
+    }
+    .place__paragraph_first {
+
+    }
+    .place__paragraph_second {
+
+    }
 }
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
+    .page {
+        min-width: 1024px;
+        min-height: 6895px;
+    }
+    .header {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+    .lead__title {
+        padding-right: 152px;
+        padding-left: 152px;
+    }
+    .lead__subtitle {
+        padding-right: 192px;
+        padding-left: 192px;
+    }
+    .lead__image {
+        width: 928px;
+        padding-right: 48px;
+        padding-left: 48px;
+        margin: auto;
+    }
+    .lead__caption {
+        padding-left: 48px;
+        padding-top: 8px;
+    }
+    .intro {
+        padding-left: 48px;
+        max-width: 690px;
+        padding-top: 92px;
+    }
+    .intro__title {
+        width: 100%;
+    }
+    .intro__text {
+        width: 100%;
+    }
     .photo-grid {
         row-gap: 14px;
         column-gap: 14px;
@@ -479,28 +500,46 @@
         padding-right: 48px;
         padding-left: 48px;
     }
+    .item {
+        width: 300px;
+        height: 225px;
+    }
 }
 @media (min-width: 1280px) {
+    .page {
+        min-width: 1280px;
+        min-height: 6875px;
+    }
+    .lead {
+        padding-top: 56px;
+    }
+    .lead__title {
+        padding-right: 280px;
+        padding-left: 280px;
+    }
+    .lead__subtitle {
+        padding-right: 320px;
+        padding-left: 320px;
+    }
+    .lead__image {
+        width: 984px;
+        padding-right: 148px;
+        padding-left: 148px;
+    }
+    .lead__caption {
+        padding-left: 148px;
+    }
+    .intro {
+        padding-right: 442px;
+        padding-left: 148px;
+    }
     .photo-grid {
         row-gap: 16px;
         column-gap: 16px;
     }
-}
-@media (min-width: 768px) {
     .item {
-        min-width: 352px;
-        min-height: 264px;
+        width: 284px;
+        height: 213px;
     }
 }
-@media (min-width: 1024px) {
-    .item {
-        min-width: 300px;
-        min-height: 225px;
-    }
-}
-@media (min-width: 1280px){
-    .item {
-        min-width: 284px;
-        min-height: 213px;
-    }
-}
+
