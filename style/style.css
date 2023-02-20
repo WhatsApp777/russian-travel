@@ -230,11 +230,11 @@
 .cover {
     display: flex;
     flex-direction: column;
-    background-image: url(../../images/cover-trains.jpg);
-    background-size: contain;
+    background-image: url(./../images/cover-trains.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 200px;
+    height: 100%;
     margin-top: 16px;
     row-gap: 16px;
 }
@@ -270,17 +270,13 @@
 .footer {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding-top: 64px;
     padding-right: 16px;
     padding-bottom: 24px;
     padding-left: 16px;
-}
-.footer__column {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .footer__menu {
     margin: 0;
@@ -409,11 +405,13 @@
     .places {
         padding-top: 88px;
         padding-right: 24px;
+        padding-bottom: 17px;
         padding-left: 24px;
     }
     .place {
+        padding-bottom: 73px;
         display: grid;
-        gap: 28px;
+        gap: 48px 28px;
         grid-template-rows: 3;
         grid-template-columns: 340px 352px;
         grid-template-areas:
@@ -436,23 +434,76 @@
     .place__website {
         padding: 0;
         grid-area: website;
-    }
-    .place__url {
-
-    }
-    .place__link {
- 
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-start;
     }
     .place__paragraph {
         grid-area: paragraph;
-        margin-top: 48px;
         padding: 0;
     }
-    .place__paragraph_first {
-
+    .cover {
+        margin: 0;
+        padding: 0;
+        height: 480px;
+        row-gap: 32px;
     }
-    .place__paragraph_second {
-
+    .cover__title {
+        padding-top: 115px;
+        margin: auto;
+        width: 560px;
+        height: 152px;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+    }
+    .cover__subtitle {
+        padding-bottom: 115px;
+        width: 360px;
+        height: 66px;
+        margin: auto;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .footer {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 88px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        padding-left: 24px;
+    }
+    .footer__menu {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 18px;
+    }
+    .footer__p {
+        margin: 0;
+        padding: 0;
+    }
+    .footer__link {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .footer__author {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
     }
 }
 @media (min-width: 1024px) {
@@ -504,6 +555,45 @@
         width: 300px;
         height: 225px;
     }
+    .places {
+        padding-top: 92px;
+        padding-right: 48px;
+        padding-bottom: 12px;
+        padding-left: 48px;
+    }
+    .place {
+        padding-bottom: 80px;
+        gap: 48px 32px;
+        grid-template-columns: 440px 456px;
+    }
+    .place__title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+    }
+    .place__image {
+        min-height: 440px;
+    }
+    .place__paragraph {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 163%;
+    }
+    .cover {
+        height: 640px;
+    }
+    .cover__title {
+        padding-top: 195px;
+    }
+    .cover__subtitle {
+        padding-bottom: 195px;
+    }
+    .footer {
+        padding-top: 92px;
+        padding-right: 48px;
+        padding-bottom: 24px;
+        padding-left: 48px;
+    }
 }
 @media (min-width: 1280px) {
     .page {
@@ -540,6 +630,30 @@
     .item {
         width: 284px;
         height: 213px;
+    }
+    .places {
+        padding-right: 148px;
+        padding-bottom: 12px;
+        padding-left: 148px;
+    }
+    .place {
+        padding-bottom: 80px;
+        gap: 48px 40px;
+        grid-template-columns: 460px 484px;
+    }
+    .place__image {
+        min-height: 460px;
+    }
+    .cover {
+        max-width: 1184px;
+        height: 740px;
+        margin: auto;
+    }
+    .cover__title {
+        padding-top: 245px;
+    }
+    .cover__subtitle {
+        padding-bottom: 245px;
     }
 }
 
