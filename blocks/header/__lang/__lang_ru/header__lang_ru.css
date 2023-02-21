@@ -1,5 +1,16 @@
 .header__lang_ru {
-    min-width: 22px;
-    min-height: 20px;
-    text-decoration-line: underline;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: underline;
+}
+@media (min-width: 767px) {
+    .header__lang_ru {
+        width: 30px;
+        height: 28px;
+    }
 }

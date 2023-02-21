@@ -3,3 +3,10 @@
     width: 142px;
     height: 42px;
 }
+@media (min-width: 767px) {
+    .header__logo {
+        top: 28px;
+        width: 176px;
+        height: 52px;
+    }
+}
