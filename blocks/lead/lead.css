@@ -3,14 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding-top: 106px;
+    padding-top: 48px;
 }
-@media (min-width: 767px) {
+@media screen and (min-width: 767px) {
     .lead {
         padding-top: 128px;
     }
 }
-@media (min-width: 1279px) {
+@media screen and (min-width: 1279px) {
     .lead {
         padding-top: 136px;
     }
