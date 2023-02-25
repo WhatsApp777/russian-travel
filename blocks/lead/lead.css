@@ -1,17 +1,29 @@
 .lead {
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    min-width: 320px;
+    min-height: 406px;
     padding-top: 48px;
 }
-@media screen and (min-width: 767px) {
+@media (min-width: 768px) {
     .lead {
-        padding-top: 128px;
+        min-width: 768px;
+        min-height: 862px;
     }
 }
-@media screen and (min-width: 1279px) {
+@media (min-width: 1024px) {
     .lead {
-        padding-top: 136px;
+        min-width: 928px;
+        min-height: 962px;
+    }
+}
+@media (min-width: 1280px) {
+    .lead {
+        min-height: 1005px;
+        padding-top: 56px;
+        max-width: 984px;
     }
 }

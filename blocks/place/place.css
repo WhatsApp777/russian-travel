@@ -3,11 +3,10 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    
-    align-content: center;
+    justify-content: center;
     row-gap: 32px;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .place {
         padding-bottom: 73px;
         display: grid;
@@ -20,14 +19,14 @@
         "image paragraph"
     }
 }
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
     .place {
         padding-bottom: 80px;
         gap: 48px 32px;
         grid-template-columns: 440px 456px;
     }
 }
-@media (min-width: 1279px) {
+@media (min-width: 1280px) {
     .place {
         padding-bottom: 80px;
         gap: 48px 40px;

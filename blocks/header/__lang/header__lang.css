@@ -3,9 +3,11 @@
     justify-content: space-between;
     gap: 18px;
     padding-top: 30px;
+    min-width: 62px;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .header__lang {
+        min-width: 77px;
         padding-top: 46px;
         font-weight: 400;
         font-size: 24px;

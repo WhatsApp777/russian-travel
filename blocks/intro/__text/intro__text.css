@@ -7,12 +7,12 @@
     font-size: 16px;
     line-height: 163%;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .intro__text {
         width: 100%;
     }
 }
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
     .intro__text {
         width: 100%;
     }

@@ -7,7 +7,7 @@
     align-content: flex-start;
     gap: 32px;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .footer__menu {
         margin: 0;
         padding: 0;

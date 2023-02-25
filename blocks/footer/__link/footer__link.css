@@ -12,7 +12,7 @@
     transition: background-color 2s linear;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .footer__link {
         margin: 0;
         padding: 0;
