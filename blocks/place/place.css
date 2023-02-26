@@ -5,9 +5,11 @@
     flex-direction: column;
     justify-content: center;
     row-gap: 32px;
+    min-width: 320px;
 }
 @media (min-width: 768px) {
     .place {
+        min-width: 720px;
         padding-bottom: 73px;
         display: grid;
         gap: 48px 28px;
@@ -21,6 +23,7 @@
 }
 @media (min-width: 1024px) {
     .place {
+        min-width: 928px;
         padding-bottom: 80px;
         gap: 48px 32px;
         grid-template-columns: 440px 456px;
@@ -28,6 +31,7 @@
 }
 @media (min-width: 1280px) {
     .place {
+        min-width: 984px;
         padding-bottom: 80px;
         gap: 48px 40px;
         grid-template-columns: 460px 484px;

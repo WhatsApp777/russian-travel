@@ -14,6 +14,7 @@
         grid-template-rows: repeat(6, 1fr);
         gap: 16px;
         padding: 88px 24px 0;
+        min-width: 720px;
     }
 }
 @media (min-width: 1024px) {
@@ -22,12 +23,14 @@
         grid-template-rows: repeat(4, 1fr);
         gap: 14px;
         padding: 92px 48px 0;
+        min-width: 928px;
     }
 }
 @media (min-width: 1280px) {
     .photo-grid {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        gap: 16px;;
+        gap: 16px;
+        min-width: 1184px;
     }
 }

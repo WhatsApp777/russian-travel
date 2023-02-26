@@ -3,6 +3,7 @@
     padding: 64px 16px 24px;
     display: flex;
     flex-direction: column;
+    min-width: 186px;
 }
 @media (min-width: 768px) {
     .footer {
@@ -22,6 +23,6 @@
 }
 @media (min-width: 1280px) {
     .footer {
-        max-width: 1184px;
+        min-width: 1184px;
     }
 }
