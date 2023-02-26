@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    width: 100%;
+    min-width: 288px;
     padding-top: 34px;
     font-weight: 700;
     font-size: 12px;
@@ -10,6 +10,12 @@
 }
 @media (min-width: 768px) {
     .intro__list {
+        padding-top: 33px;
+    }
+}
+@media (min-width: 1024px) {
+    .intro__list {
+        max-width: 690px;
         padding-top: 33px;
     }
 }
