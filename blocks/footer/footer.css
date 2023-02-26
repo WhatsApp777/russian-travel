@@ -3,7 +3,6 @@
     padding: 64px 16px 24px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 @media (min-width: 768px) {
     .footer {
@@ -12,6 +11,7 @@
         min-height: 18px;
         min-width: 720px;
         flex-direction: row;
+        justify-content: space-between;
     }
 }
 @media (min-width: 1024px) {

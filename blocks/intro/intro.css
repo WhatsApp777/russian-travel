@@ -1,15 +1,13 @@
 .intro {
-    max-width: 720px;
+    margin: 0;
     padding: 64px 16px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
+    min-width: 288px;
+    text-align: left;
 }
 @media (min-width: 768px) {
     .intro {
+        min-width: 720px;
         padding: 88px 24px 0;
-        padding-top: 88px;
     }
 }
 @media (min-width: 1024px) {
