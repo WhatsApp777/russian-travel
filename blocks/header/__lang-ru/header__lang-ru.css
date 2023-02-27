@@ -1,4 +1,4 @@
-.header__lang_ru {
+.header__lang-ru {
     margin: 0;
     padding: 0;
     min-width: 22px;
@@ -9,7 +9,7 @@
     text-decoration: underline;
 }
 @media (min-width: 768px) {
-    .header__lang_ru {
+    .header__lang-ru {
         font-weight: 400;
         font-size: 24px;
         line-height: 28px;
