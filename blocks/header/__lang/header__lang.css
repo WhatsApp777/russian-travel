@@ -1,16 +1,24 @@
 .header__lang {
-    display: flex;
-    justify-content: space-between;
-    gap: 18px;
-    padding-top: 30px;
-    min-width: 62px;
+    margin: 0;
+    padding: 0;
+    min-width: 22px;
+    min-height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header__lang:hover {
+    opacity: 0.8;
+    transition: background-color 2s linear;
 }
 @media (min-width: 768px) {
     .header__lang {
-        min-width: 77px;
-        padding-top: 46px;
         font-weight: 400;
         font-size: 24px;
         line-height: 28px;
+        min-width: 29px;
+        min-height: 28px;
     }
 }

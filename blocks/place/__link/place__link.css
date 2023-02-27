@@ -9,6 +9,6 @@
     color: #FFFFFF;
 }
 .place__link:hover {
-    opacity: 0.5;
+    opacity: 0.8;
     transition: background-color 2s linear;
 }

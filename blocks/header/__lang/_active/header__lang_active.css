@@ -1,4 +1,4 @@
-.header__lang-ru {
+.header__lang_active {
     margin: 0;
     padding: 0;
     min-width: 22px;
@@ -7,9 +7,14 @@
     font-size: 18px;
     line-height: 20px;
     text-decoration: underline;
+    color: #FFFFFF;
+}
+.header__lang_active:hover {
+    opacity: 0.8;
+    transition: background-color 2s linear;
 }
 @media (min-width: 768px) {
-    .header__lang-ru {
+    .header__lang_active {
         font-weight: 400;
         font-size: 24px;
         line-height: 28px;
