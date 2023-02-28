@@ -6,14 +6,12 @@
 @media (min-width: 768px) {
     .cover {
         min-width: 768px;
-        min-height: 480px;
         row-gap: 32px;
     }
 }
 @media (min-width: 1024px) {
     .cover {
         min-width: 1024px;
-        min-height: 640px;
     }
 }
 @media (min-width: 1280px) {
@@ -21,6 +19,5 @@
         padding-right: 48px;
         padding-left: 48px;
         min-width: 1184px;
-        min-height: 740px;
     }
 }

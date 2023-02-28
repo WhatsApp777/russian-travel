@@ -1,8 +1,7 @@
 .cover__title {
     margin: 0 auto;
     padding: 33px 16px 0;
-    width: 288px;
-    min-height: 70px;
+    max-width: 288px;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
@@ -14,8 +13,7 @@
 @media (min-width: 768px) {
     .cover__title {
         padding: 115px 104px 0;
-        width: 560px;
-        min-height: 152px;
+        max-width: 560px;
         font-weight: 900;
         font-size: 72px;
         line-height: 76px;

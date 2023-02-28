@@ -6,23 +6,19 @@
     justify-content: center;
     align-content: center;
     min-width: 320px;
-    min-height: 406px;
 }
 @media (min-width: 768px) {
     .lead {
         min-width: 768px;
-        min-height: 862px;
     }
 }
 @media (min-width: 1024px) {
     .lead {
         min-width: 928px;
-        min-height: 962px;
     }
 }
 @media (min-width: 1280px) {
     .lead {
-        min-height: 1005px;
         padding-top: 56px;
         min-width: 984px;
     }
